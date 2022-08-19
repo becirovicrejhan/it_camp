@@ -1,0 +1,39 @@
+.container{
+    margin: 0 auto;
+}
+
+.kartice {
+    display: block;
+  
+}
+
+.polje {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px; border-bottom-style: solid; border-color: grey;
+    height: 200px;
+}
+
+.levo {
+    margin-right: 150px;
+    padding-top: 6px;
+    line-height: 2px;
+    color: silver;
+}
+.desno {
+    width: 800px;
+}
+.tekst {
+    color: gray;
+    line-height: 20px;
+}
+.dole{
+    color: blue;
+}
+h4 {
+    color: black;
+}
+a
+{
+    text-decoration: none;
+}
