@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+.conteiner{
+    display: flex;
+}
+
+.left{
+    width: 700px;
+}
+
+.right{
+    width: 720px;
+    height: 400px;
+    margin-top: 10px;
+    background-color: grey;
+    text-align: center;
+}
+
+.right p {
+    margin-top: 23%;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.left h1, .left p{
+    padding-bottom: 20px;
+}
+.left .nospan{
+    padding-bottom: 0px;
+}
+
+button{
+    padding: 5px;
+    background-color: blue;
+    border: 0px solid black;
+    border-radius: 15%;
+}
+
+.left .app_store, .left .iphone_store{
+    display: flex;
+    width: 200px;
+    background-color: grey;
+    border-radius: 15px;
+    margin:10px 0 20px 0;
+}
+
+.left .app_store .in_store2 p, .left .iphone_store .in_store2 p{
+     padding: 0;
+}
